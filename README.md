@@ -1,6 +1,6 @@
-# 📈 InstagramData_Prediction using  — Naive Bayes 
+# 📈 Loan_Data_Prediction — Using Machine Learning Algorithms
 
-This project determines how to implement **Naive Bayes Algorithm** to predict **Instagram posts** based on their instagram **UserId**. The goal of this notebook is to accurately predict the data while optimizing the number of features used. In addition to achieving high accuracy, this notebook will explore whether similar evaluation metrics can be maintained with a distint feature set.
+This project determines how to implement **Machine Learning Algorithms** to predict **loan_status** based on their loan **UserId**. The goal of this notebook is to accurately predict the data while optimizing the number of features used. In addition to achieving high accuracy, this notebook will explore whether similar evaluation metrics can be maintained with a distint feature set.
 
 ---
 
