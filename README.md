@@ -1,14 +1,19 @@
-# 📈 Loan_Data_Prediction — Using Machine Learning Algorithms
+# 📈 Loan Prediction model  — Using ML Algorithms
 
-This project determines how to implement **Machine Learning Algorithms** to predict **loan_status** based on their loan **UserId**. The goal of this notebook is to accurately predict the data while optimizing the number of features used. In addition to achieving high accuracy, this notebook will explore whether similar evaluation metrics can be maintained with a distint feature set.
+This project determines how to implement **ML Algorithms** to predict **Loan status** based on **Loan Approvals**.The major aim of this notebook is to
+predict which of the customers will have their loan approved. In addition to achieving high classification accuracy, this notebook will explore whether
+similar evaluation metrics can be maintained with a distint feature set.
 
 ---
 
 ## 📂 Dataset
 
-Complete Dataset consists of 6 CSV file. Each CSV file has data which is related to instagram. 
+Complete Dataset consists of 2 CSV files . One of them is training and other is for testing your model. 
+The dataset contains a set of 613 records under 13 attributes:
 
-These files are mapped to  classify the set of data related to user and their posts.
+ <img width="530" height="350" alt="image" src="https://github.com/user-attachments/assets/c9480ee4-ed72-4f96-8dea-5ee5805f0c57" />
+
+
 
 ## 🔧 Libraries Used
 
@@ -26,13 +31,13 @@ These files are mapped to  classify the set of data related to user and their po
 3. **Data Cleaning**  
    - Checked for null values  
 4. **Exploratory Data Analysis (EDA)**  
-   - Data visualization using seaborn  
+   - Countplot visualization using seaborn  
 5. **Train-Test Split**  
-   - Using `train_test_split()`  
+   - 75:25 ratio using `train_test_split()`  
 6. **Model Creation**  
-   - Using `GaussianNB` from scikit-learn  
+   - Using `ML Algorithms` from scikit-learn  
 7. **Prediction**  
-   - Predicted users and thei posts for test data  
+   - Predicted values for test data  
 8. **Evaluation Metrics**
    - F1_score 
    - Accuracy_score 
@@ -40,17 +45,17 @@ These files are mapped to  classify the set of data related to user and their po
    - Recall_score
    - Confusion_Matrix
 9. **Visualization**  
-   - plot of **Symptoms vs Prognosis**
+   - plots of **Loan ID vs Loan Approval**
 
 ---
 
 ## 📊 Evaluation Output
 
 ```  
-Accuracy_score ....
-F1_score ..... 
-precision_score .... 
-recall_score .... 
+Accuracy_score:
+F1_score : 
+precision_score :
+recall_score : 
 ```
 
 This indicates a good accuracy prediction model.
@@ -59,16 +64,17 @@ This indicates a good accuracy prediction model.
 
 ## 📌 Visualization
 
-A plot is generated to show the **UserID vs Posts** values with a reference bar:
+Some plots are generated to show the ** Loan Id vs Loan Approval** values with a reference bar:
 
-- X-axis → UserID  
-- Y-axis → Posts  
+- X-axis →   
+- Y-axis →  
 
 ---
 
 ## 🙏 Acknowledgement
 
-This project was created under the guidance of [Surekha Kanwar](https://www.linkedin.com/in/surekha-kanwar-81002076/), as part of my machine learning learning journey. I am thankful for her feverish support and knowledge.
+This project was created under the guidance of [Surekha Kanwar](https://www.linkedin.com/in/surekha-kanwar-81002076/), as part of 
+my machine learning learning journey. I am thankful for her feverish support and knowledge.
 
 ---
 
